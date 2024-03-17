@@ -1,0 +1,33 @@
+#must-watch {
+    color: red;
+}
+#logo {
+    color: red;
+}
+#release {
+    color: red;
+}
+#button-more {
+    text-align: center;
+}
+#main {
+    background-image: linear-gradient(to right, #000000, #3a0e19, #700621, #a6001d, #d90000);
+}
+#nav {
+    background-color: rgba(0, 0, 0, 0.5)
+
+}
+#container {
+    margin-top: 40px;
+}
+.list-container {
+    margin: 10px;
+}
+.list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.notfound{
+    height: auto;
+    width: auto;
+}
