@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Login from "./User/Login";
 
 export default function NavBar() {
    const navMenu = [
@@ -35,6 +36,7 @@ export default function NavBar() {
                </div>
             </div>
             <form className="ml-auto"><input className="px-4 py-2 outline-none bg-red-800 rounded-full text-white" type="text" placeholder="Search..."/></form>
+            <button id="login-btn" className="mt-4 bg-black hover:text-red-400 text-red-600 font-bold py-3 px-4 rounded"><Link to="/Login">Login</Link></button>
          </div>
       </nav>
    );

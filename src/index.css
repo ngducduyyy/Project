@@ -30,3 +30,9 @@
 .swiper-pagination-bullet {
    background: #fff;
 }
+#login-link:hover {
+color:#ff28289a;
+}
+#login-link {
+   color: red;
+}
